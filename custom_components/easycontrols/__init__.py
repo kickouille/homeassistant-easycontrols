@@ -12,6 +12,8 @@ from custom_components.easycontrols.coordinator import (
     create_coordinator,
 )
 
+SCAN_INTERVAL = timedelta(minutes=10)
+
 _LOGGER = logging.getLogger(__name__)
 
 # pylint: disable=unused-argument
